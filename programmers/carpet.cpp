@@ -8,16 +8,6 @@
 #include <stdlib.h>
 #include<map>
 using namespace std;
-#include <iostream>
-#include <stdio.h>
-#include <string>
-#include <vector>
-#include<string.h>
-#include<sstream>
-#include <stdbool.h>
-#include <stdlib.h>
-#include<map>
-using namespace std;
 /*
  카펫 완전탐색
      yello개수: 1    4    9    16    25    36    49 
