@@ -55,7 +55,7 @@ int main() {
 	 
 	/*input, output ,gradient, 1, 감지된 중심사이의 최소거리, 내부 엣지 상한 임계값
 	중심을 위한 threshold, 감지할 최소 반경, 감지할 최대 반경*/
-	HoughCircles(rgray0, circles0, HOUGH_GRADIENT, 1, 70, 100, 50, 10, 75); 
+	HoughCircles(rgray0, circles0, HOUGH_GRADIENT, 1, 70, 100, 50, 10, 77); 
  	for (size_t i = 0; i < circles0.size(); i++) {
 		Vec3i c = circles0[i];
 		Point center = Point(c[0], c[1]);
